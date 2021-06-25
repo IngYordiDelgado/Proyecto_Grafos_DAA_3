@@ -15,6 +15,7 @@ Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar el
 * Imágenes de los Modelos Generadas con gephi
 * Modelo de Mallas
 ** 30 nodos(5x6)
+- [[./Archivos gv/Mallas/grafo_malla_30_nodos.gv][Archivo Graphviz]]
 [[./Images/Mallas/Mallas_30.png]]
 *** Arbol de caminos mas cortos(Djikstra)
 [[./Images/Mallas/Mallas_30_dijkstra.png]]
