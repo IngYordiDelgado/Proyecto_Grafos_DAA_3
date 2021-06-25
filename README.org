@@ -46,7 +46,7 @@ Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar el
 * Modelo de Gilbert
 ** 30 nodos y probabilidad 0.5
 - [[./Archivos gv/Gilbert/grafo_gilbert_30_05.gv][Archivo Graphviz]]
-[[./Images/Gilbert/Gilbert_30.png]]
+[[./Images/Gilbert/Gilbert_30 .png]]
 *** Arbol de caminos mas cortos(Djikstra)
 - [[./Archivos gv/Gilbert/grafo_gilbert_30_05_Dijkstra.gv][Archivo Graphviz]]
 [[./Images/Gilbert/Gilbert_30_dijkstra.png]]
