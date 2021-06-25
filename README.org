@@ -41,7 +41,7 @@ Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar el
 [[./Images/Erdos/Erdos_500.png]]
 *** Arbol de caminos mas cortos(Djikstra)
 - [[./Archivos gv/Erdos/grafo_erdos_500_2500_Dijkstra.gv][Archivo Graphviz]]
-[[./Images/Erdos/Erdos_500_djikstra.png]]
+[[./Images/Erdos/Erdos_500_dijkstra.png]]
 
 * Modelo de Gilbert
 ** 30 nodos y probabilidad 0.5
