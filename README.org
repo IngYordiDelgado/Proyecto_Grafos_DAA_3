@@ -1,1 +1,185 @@
+#+TITLE: Proyecto  2 de la asignatura de Diseño y Análisis de Algoritmos
+#+author: Yordi Edgardo Delgado Ortiz 
 
+#+STARTUP:  CONTENT
+
+* Desarrollador :
+Yordi Edgardo Delgado Ortiz 
+
+* Información:
+Utilizando la biblioteca de grafos desarrollada en el proyecto 1, se implementaron 
+los algoritmos BFS y DFS (recursivo e iterativo) de tal forma que dado un nodo
+fuente (s), calcula el árbol inducido por los algoritmos mencionados; es decir,
+se desarrollaron los métodos en la clase Grafo:
+- =def dfs(self, s)=
+- =def dfs_i(self, s)=
+- =def dfs_r(self, s)=
+
+ 
+* Imágenes de los Modelos Generadas con gephi
+* Modelo de Mallas
+** 30 nodos(5x6)
+[[./Images/Mallas/mallas_30.png]]
+*** BFS
+[[./Images/Mallas/mallas_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Mallas/mallas_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Mallas/mallas_30_dfs_r.png]]
+
+** 100 nodos(10x10)
+[[./Images/Mallas/mallas_100.png]]
+*** BFS
+[[./Images/Mallas/mallas_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Mallas/mallas_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Mallas/mallas_100_dfs_r.png]]
+
+** 500 nodos(50x10)
+[[./Images/Mallas/mallas_500.png]]
+*** BFS
+[[./Images/Mallas/mallas_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Mallas/mallas_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Mallas/mallas_500_dfs_r.png]]
+
+
+* Modelo de Erdos y Renyi
+** 30 Nodos y 200 Aristas
+[[./Images/Erdos/Erdos_30.png]]
+*** BFS
+[[./Images/Erdos/Erdos_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Erdos/Erdos_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Erdos/Erdos_30_dfs_r.png]]
+
+
+** 100 Nodos y 400 Aristas
+[[./Images/Erdos/Erdos_100.png]]
+*** BFS
+[[./Images/Erdos/Erdos_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Erdos/Erdos_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Erdos/Erdos_100_dfs_r.png]]
+
+
+** 500 Nodos y 2500 Aristas
+[[./Images/Erdos/Erdos_500.png]]
+*** BFS
+[[./Images/Erdos/Erdos_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Erdos/Erdos_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Erdos/Erdos_500_dfs_r.png]]
+
+* Modelo de Gilbert
+** 30 nodos y probabilidad 0.5
+[[./Images/Gilbert/Gilbert_30.png]]
+*** BFS
+[[./Images/Gilbert/Gilbert_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Gilbert/Gilbert_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Gilbert/Gilbert_30_dfs_r.png]]
+
+** 100 nodos y probabilidad 0.3
+[[./Images/Gilbert/Gilbert_100.png]]
+*** BFS
+[[./Images/Gilbert/Gilbert_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Gilbert/Gilbert_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Gilbert/Gilbert_100_dfs_r.png]]
+
+** 500 nodos y probabilidad 0.02
+[[./Images/Gilbert/Gilbert_500.png]]
+*** BFS
+[[./Images/Gilbert/Gilbert_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Gilbert/Gilbert_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Gilbert/Gilbert_500_dfs_r.png]]
+* Modelo Geográfico
+** 30 nodos y distancia 0.5
+[[./Images/Geografico/geografico_30.png]]
+*** BFS
+[[./Images/Geografico/geografico_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Geografico/geografico_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Geografico/geografico_30_dfs_r.png]]
+
+** 100 nodos y distancia 0.3
+[[./Images/Geografico/geografico_100.png]]
+*** BFS
+[[./Images/Geografico/geografico_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Geografico/geografico_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Geografico/geografico_100_dfs_r.png]]
+** 500 nodos y distancia 0.15
+[[./Images/Geografico/geografico_500.png]]
+*** BFS
+[[./Images/Geografico/geografico_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Geografico/geografico_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Geografico/geografico_500_dfs_r.png]]
+
+* Modelo Barabasi
+** 30 nodos y grado 10
+[[./Images/Babarasi/Babarasi_30.png]]
+*** BFS
+[[./Images/Babarasi/Babarasi_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Babarasi/Babarasi_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Babarasi/Babarasi_30_dfs_r.png]]
+
+** 100 nodos y grado 7
+[[./Images/Babarasi/Babarasi_100.png]]
+*** BFS
+[[./Images/Babarasi/Babarasi_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Babarasi/Babarasi_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Babarasi/Babarasi_100_dfs_r.png]]
+
+** 500 nodos y grado 12
+[[./Images/Babarasi/Babarasi_500.png]]
+*** BFS
+[[./Images/Babarasi/Babarasi_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Babarasi/Babarasi_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Babarasi/Babarasi_500_dfs_r.png]]
+
+* Modelo Dorogovtsev
+** 30 nodos
+[[./Images/Dogorostev/Dogorostev_30.png]]
+*** BFS
+[[./Images/Dogorostev/Dogorostev_30_bfs.png]]
+*** DFS Iterativo
+[[./Images/Dogorostev/Dogorostev_30_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Dogorostev/Dogorostev_30_dfs_r.png]]
+** 100 nodos
+[[./Images/Dogorostev/Dogorostev_100.png]]
+*** BFS
+[[./Images/Dogorostev/Dogorostev_100_bfs.png]]
+*** DFS Iterativo
+[[./Images/Dogorostev/Dogorostev_100_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Dogorostev/Dogorostev_100_dfs_r.png]]
+** 500 nodos
+[[./Images/Dogorostev/Dogorostev_500.png]]
+*** BFS
+[[./Images/Dogorostev/Dogorostev_500_bfs.png]]
+*** DFS Iterativo
+[[./Images/Dogorostev/Dogorostev_500_dfs_i.png]]
+*** DFS Recursivo
+[[./Images/Dogorostev/Dogorostev_500_dfs_r.png]]
