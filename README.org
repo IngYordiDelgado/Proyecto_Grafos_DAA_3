@@ -18,14 +18,13 @@ Utilizando la biblioteca de grafos desarrollada en el proyecto 1, implementar el
 - [[./Archivos gv/Mallas/grafo_malla_30_nodos.gv][Archivo Graphviz]]
 [[./Images/Mallas/Mallas_30.png]]
 *** Arbol de caminos mas cortos(Djikstra)
+- [[./Archivos gv/Mallas/grafo_malla_30_nodos_Dijkstra.gv][Archivo Graphviz]]
 [[./Images/Mallas/Mallas_30_dijkstra.png]]
 
 ** 500 nodos(50x10)
 [[./Images/Mallas/Mallas_500.png]]
 *** Arbol de caminos mas cortos(Djikstra)
 [[./Images/Mallas/Mallas_500_dijkstra.png]]
-
-
 
 * Modelo de Erdos y Renyi
 ** 30 Nodos y 200 Aristas
