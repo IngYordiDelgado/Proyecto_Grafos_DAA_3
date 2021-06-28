@@ -14,7 +14,7 @@ Dado un grafo, y utilizando pygame, generar una visualización del mismo. Median
 * Imágenes de los Modelos Generadas con gephi
 * Modelo de Mallas
 ** 30 nodos(5x6)
-+ [[https://youtu.be/BqHsRr_4CRU][Video en YT]]
+- [[./Archivos gv/Mallas/grafo_malla_30_nodos.gv][Archivo Graphviz]]
 [[./Images/Mallas/Mallas_30.png]]
 *** Arbol de caminos mas cortos(Djikstra)
 - [[./Archivos gv/Mallas/grafo_malla_30_nodos_Dijkstra.gv][Archivo Graphviz]]
